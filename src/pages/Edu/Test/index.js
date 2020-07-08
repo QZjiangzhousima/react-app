@@ -6,7 +6,8 @@ export default class index extends Component {
             <div>
                 Test测试....hello word
                 <div>
-                </div></div>
+                </div>
+            </div>
         )
     }
 }
