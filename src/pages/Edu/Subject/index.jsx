@@ -23,7 +23,7 @@ const data = [
     name: 'John Brown',
     age: 32,
     address: 'New York No. 1 Lake Park',
-    description: 'My name is John Brown, I am 32 years old, living in New York No. 1 Lake Park.',
+    description: '小仙女的终极闪光biubiu',
   },
   {
     key: 2,
