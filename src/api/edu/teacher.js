@@ -3,7 +3,7 @@ import request from "@utils/request";
 const BASE_URL = "/admin/edu/teacher";
 
 // 获取讲师
-export function reqGetTeacher(id) {
+export function reqGetTeacher (id) {
   return request({
     url: `${BASE_URL}/get/${id}`,
     method: "GET",
@@ -11,7 +11,7 @@ export function reqGetTeacher(id) {
 }
 
 // 获取所有讲师列表
-export function reqGetAllTeacherList() {
+export function reqGetAllTeacherList () {
   return request({
     url: `${BASE_URL}/list`,
     method: "GET",
@@ -19,7 +19,7 @@ export function reqGetAllTeacherList() {
 }
 
 // 获取讲师分页列表
-export function reqGetTeacherList({
+export function reqGetTeacherList ({
   page,
   limit,
   name,
@@ -40,7 +40,7 @@ export function reqGetTeacherList({
 }
 
 // 根据讲师姓名关键字查询讲师姓名列表
-export function reqSearchTeacherList(key) {
+export function reqSearchTeacherList (key) {
   return request({
     url: `${BASE_URL}/name/${key}`,
     method: "GET",
@@ -48,7 +48,7 @@ export function reqSearchTeacherList(key) {
 }
 
 // 新增讲师
-export function reqAddTeacher({ avatar, sort, name, level, intro, career }) {
+export function reqAddTeacher ({ avatar, sort, name, level, intro, career }) {
   return request({
     url: `${BASE_URL}/save`,
     method: "POST",
@@ -57,7 +57,7 @@ export function reqAddTeacher({ avatar, sort, name, level, intro, career }) {
 }
 
 // 修改讲师
-export function reqUpdateTeacher({
+export function reqUpdateTeacher ({
   id,
   avatar,
   sort,
@@ -74,7 +74,7 @@ export function reqUpdateTeacher({
 }
 
 // 删除讲师
-export function reqRemoveTeacher(id) {
+export function reqRemoveTeacher (id) {
   return request({
     url: `${BASE_URL}/remove/${id}`,
     method: "DELETE",
@@ -82,7 +82,7 @@ export function reqRemoveTeacher(id) {
 }
 
 // 批量删除讲师
-export function reqBatchRemoveTeacher(idList) {
+export function reqBatchRemoveTeacher (idList) {
   return request({
     url: `${BASE_URL}/batchRemove`,
     method: "DELETE",
