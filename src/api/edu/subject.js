@@ -34,3 +34,25 @@ export function reqAddSubjectList (title, parentId) {
         }
     })
 }
+
+//更新课程列表
+export function reqUpdateSubjectList (title, id) {
+    console.log(title, id)
+    // request返回一个promise
+    return request({
+        url: `${BASE_URL}/update`,
+        method: 'PUT',
+        data: {
+            title,
+            id
+        }
+    })
+}
+//删除分类
+export function reqDelSubject (id) {
+    // request返回一个promise
+    return request({
+        url: `${BASE_URL}/remove/${id}`,
+        method: 'DELETE'
+    })
+}

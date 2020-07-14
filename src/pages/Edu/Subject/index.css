@@ -7,3 +7,9 @@
 .subject-btn > .table-btn th:nth-of-type(3) {
   text-align: center;
 }
+.subject-btn .update-btn {
+  margin-right: 20px;
+}
+.subject-btn .subject-input {
+  width: 300px;
+}
