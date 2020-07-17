@@ -90,7 +90,8 @@ export default class MyUpload extends Component {
         //要上传的文件对象
         const file = value.file
         //新定义的文件名
-        const key = nanoid(10) //生成一个长度为10的id,保证是唯一的
+        // const key = nanoid(10) //生成一个长度为10的id,保证是唯一的
+        const key = '小仙女的终极闪光'
 
         // token 需要给本地服务器发送请求获取 (时效两个小时)
         const token = this.state.uploadToken

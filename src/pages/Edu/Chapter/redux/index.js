@@ -1,4 +1,4 @@
-import { getChapterList, getLessonList } from './actions'
+import { getChapterList, getLessonList, batchDelLesson, batchDelChapter } from './actions'
 import chapterList from './reducer'
 
-export { getChapterList, chapterList, getLessonList }
+export { getChapterList, chapterList, getLessonList, batchDelLesson, batchDelChapter }

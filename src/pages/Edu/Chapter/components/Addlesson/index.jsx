@@ -54,7 +54,7 @@ class AddLesson extends Component {
             <Card
                 title={
                     <>
-                        <Link to='/edu/subject/list'>
+                        <Link to='/edu/chapter/list'>
                             <ArrowLeftOutlined />
                         </Link>
                         <span className='title' style={{ marginLeft: 20 }}>新增课时</span>

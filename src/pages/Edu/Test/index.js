@@ -4,9 +4,7 @@ export default class index extends Component {
     render () {
         return (
             <div>
-                Test测试....hello word
-                <div>
-                </div>
+                小仙女的终极闪光
             </div>
         )
     }
