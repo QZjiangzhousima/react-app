@@ -154,7 +154,7 @@ class Chapter extends Component {
         format: '',
         height: 500,
         size: 160000,
-        width: 500
+        width: 500,
       }
     }
 
@@ -191,7 +191,7 @@ class Chapter extends Component {
                     <PlusOutlined />
                   </Button>
                 </Tooltip>)}
-              <Tooltip title={data.free === undefined ? '新增章节' : '新增课时'}>
+              <Tooltip title={data.free === undefined ? '修改章节' : '修改课时'}>
                 <Button type="primary" style={{ marginRight: "10px" }}>
                   <FormOutlined />
                 </Button>

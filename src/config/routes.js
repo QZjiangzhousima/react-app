@@ -1,5 +1,6 @@
 import Login from "@pages/Login";
 import NotFound from "@pages/404";
+import Oauth from '@pages/Login/components/Oauth'
 
 //#region 
 /* export const asyncRoutes = [
@@ -196,6 +197,11 @@ export const constantRoutes = [
 		path: "/login",
 		component: Login,
 		title: "登录",
+	},
+	{
+		path: "/oauth",
+		component: Oauth,
+		title: "git授权登录",
 	},
 	{ path: "*", component: NotFound },
 ];
