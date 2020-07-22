@@ -25,8 +25,11 @@ const { TabPane } = Tabs;
 function LoginForm (props) {
 
   const [form] = Form.useForm()
+  //存储是否显示获取验证码按钮
   const [isShowDownCount, setIsShowDownCount] = useState(false)
+  //存储验证码倒计时数字
   let [downCount, setDownCount] = useState(5)
+  //存储页签activeKey值
   const [activeKey, setActiveKey] = useState('user')
 
 
